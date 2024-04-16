@@ -1,0 +1,28 @@
+WORD ArrValue[2];
+WORD ArrValue1[2];
+Reads(PLC, 20, MODBUS_RTU_REG_4X, 552, 2, ArrValue);
+PSW[300] = ArrValue[0];
+PSW[301] = ArrValue[1];
+Reads(PLC, 16, MODBUS_RTU_REG_4X, 562, 2, ArrValue1);
+PSW[302] = ArrValue1[0];
+PSW[303] = ArrValue1[1];
+if (PSW[300] != PSW[304] || PSW[301] != PSW[305])
+{
+    PSW[304] = PSW[300];
+    PSW[305] = PSW[301];
+    Writes(PLC, 16, MODBUS_RTU_REG_4X, 560, 2, ArrValue);
+}
+if( PSW[302] != PSW[306] || PSW[303] != PSW[307] )
+{
+    PSW[306] = PSW[302];
+    PSW[307] = PSW[303];
+    Writes(PLC, 20, MODBUS_RTU_REG_4X, 554, 2, ArrValue1);
+}
+
+
+WORD ArrValue[2];
+WORD ArrValue1[2];
+Reads(PLC, 20, MODBUS_RTU_REG_4X, 552, 2, ArrValue);
+Reads(PLC, 16, MODBUS_RTU_REG_4X, 562, 2, ArrValue1);
+Writes(PLC, 16, MODBUS_RTU_REG_4X, 560, 2, ArrValue);
+Writes(PLC, 20, MODBUS_RTU_REG_4X, 554, 2, ArrValue1);
