@@ -1,0 +1,120 @@
+[DWF6Version]
+Ver=1
+[DWF6MinorVersion]
+MinorVer=1
+[DWF6Sheet:Universal_control_box-Лист1]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист1
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист2]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист2
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист3]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист3
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист4]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист4
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист5]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист5
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист6]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист6
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист7]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист7
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист8]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист8
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист9]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист9
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист10]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист10
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[DWF6Sheet:Universal_control_box-Лист11]
+DWG=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Layout=Лист11
+Setup=
+OriginalSheetPath=E:\Universal_control_box\Цех9_Обрезной_пресс\Universal_control_box.dwg
+Has Plot Port=0
+Has3DDWF=0
+[Target]
+Type=2
+DWF=C:\Users\Rosem\OneDrive\Документы\Universal_control_box.dwfx
+OUT=C:\Users\Rosem\OneDrive\Документы\
+PWD=
+[MRU Sheet List]
+MRU=0
+[PdfOptions]
+IncludeHyperlinks=TRUE
+CreateBookmarks=TRUE
+CaptureFontsInDrawing=TRUE
+ConvertTextToGeometry=FALSE
+VectorResolution=1200
+RasterResolution=400
+[AutoCAD Block Data]
+IncludeBlockInfo=0
+BlockTmplFilePath=
+[SheetSet Properties]
+IsSheetSet=FALSE
+IsHomogeneous=FALSE
+SheetSet Name=
+NoOfCopies=1
+PlotStampOn=FALSE
+ViewFile=FALSE
+JobID=0
+SelectionSetName=
+AcadProfile=<<Профиль без имени>>
+CategoryName=
+LogFilePath=
+IncludeLayer=TRUE
+LineMerge=FALSE
+CurrentPrecision=
+PromptForDwfName=TRUE
+PwdProtectPublishedDWF=FALSE
+PromptForPwd=FALSE
+RepublishingMarkups=FALSE
+PublishSheetSetMetadata=FALSE
+PublishSheetMetadata=FALSE
+3DDWFOptions=0 1
