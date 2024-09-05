@@ -175,7 +175,7 @@
 		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 0"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
 		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"34 281 17a 2a1"
+		BrowzerWindowRect	TYPE_STRING	"36 29a 17c 2ba"
 		BrowzerToolBarView	TYPE_BOOL	FALSE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
@@ -252,14 +252,14 @@
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 0 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
 		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"4a5 281 4e3 2a1"
+		CommentWindowRect	TYPE_STRING	"4a7 29a 4e5 2ba"
 		CommentToolBarView	TYPE_BOOL	FALSE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
 		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"4e2 281 509 2a1"
+		DMemoryWindowRect	TYPE_STRING	"4e4 29a 50b 2ba"
 		DMemoryToolBarView	TYPE_BOOL	FALSE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
@@ -270,7 +270,7 @@
 		DMemoryToolBarB6	TYPE_STRING	"7 0 7e72 0 3 1"
 		SFCDoc	TYPE_DWORD16	0xe81b
 		SFCFloat	TYPE_BOOL	TRUE
-		SFCWindowRect	TYPE_STRING	"3e5 281 4a2 2a1"
+		SFCWindowRect	TYPE_STRING	"3e7 29a 4a4 2ba"
 		SFCToolBarView	TYPE_BOOL	FALSE
 		SFCSToolBarB0	TYPE_STRING	"9 0 7ecb 0 0 1"
 		SFCSToolBarB1	TYPE_STRING	"9 1 7ecc 0 1 1"
@@ -283,7 +283,7 @@
 		SFCSToolBarB8	TYPE_STRING	"9 8 7eff 0 6 1"
 		SFCStepDoc	TYPE_DWORD16	0xe81b
 		SFCStepFloat	TYPE_BOOL	TRUE
-		SFCStepWindowRect	TYPE_STRING	"17b 281 3e7 2a5"
+		SFCStepWindowRect	TYPE_STRING	"17d 29a 3e9 2be"
 		SFCStepToolBarView	TYPE_BOOL	FALSE
 		SFCStepToolBarB0	TYPE_STRING	"18 0 7ec1 0 0 1"
 		SFCStepToolBarB1	TYPE_STRING	"18 1 7ec2 0 1 1"
@@ -342,10 +342,10 @@
 	SaveTime:
 		Year	TYPE_DWORD10	2024
 		Month	TYPE_DWORD10	8
-		Day	TYPE_DWORD10	6
-		Hour	TYPE_DWORD10	8
-		Minute	TYPE_DWORD10	45
-		Second	TYPE_DWORD10	59
+		Day	TYPE_DWORD10	21
+		Hour	TYPE_DWORD10	9
+		Minute	TYPE_DWORD10	34
+		Second	TYPE_DWORD10	24
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -430,10 +430,10 @@
 		MonStatus	TYPE_BOOL	TRUE
 		DispStatus	TYPE_BOOL	FALSE
 		FloatState	TYPE_BOOL	TRUE
-		WindowLeft	TYPE_DWORD10	602
-		WindowTop	TYPE_DWORD10	73
-		WindowRight	TYPE_DWORD10	852
-		WindowBottom	TYPE_DWORD10	101
+		WindowLeft	TYPE_DWORD10	604
+		WindowTop	TYPE_DWORD10	98
+		WindowRight	TYPE_DWORD10	854
+		WindowBottom	TYPE_DWORD10	126
 	MonitorStartCond:
 		ExecCondition	TYPE_WORD10	0
 		ProgramName	TYPE_STRING	""
@@ -588,13 +588,13 @@
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	57
+		StepPosition	TYPE_DWORD10	142
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	6
-		CursorPositionY	TYPE_DWORD10	1
+		CursorPositionX	TYPE_DWORD10	4
+		CursorPositionY	TYPE_DWORD10	3
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
