@@ -1,6 +1,6 @@
 Автоматы                   Тепловое реле
 
-QF 3L    160A               KK1      32A             
+QF 3L    160A               KK1      100A             
 F1 3L    140A               KK3      10A
 F2 3L    40A               KK2      10A
 F3 3L    16A
@@ -19,7 +19,7 @@ F15 1L    1A               HL2,HL3   green  AC24V
                            HL4,HL5,HL7,HL8,HL11  white  AC24V
 Пускатели                  HL9,HL10   red   AC24V  
 
-KM1  40A AC110V
+KM1  100A AC110V
 KM2  16A AC110V
 KM3-1,KM3-2   16A AC110V
 

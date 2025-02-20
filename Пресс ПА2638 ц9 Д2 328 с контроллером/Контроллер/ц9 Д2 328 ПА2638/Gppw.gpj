@@ -1,6 +1,3 @@
-[Pass]
-	PassSet:
-		PassFlag	TYPE_BOOL	FALSE
 [App]
 	Project:
 		CpuType	TYPE_STRING	"FX1N"
@@ -9,9 +6,8 @@
 [Prt]
 [Cmnt]
 	CommInfo:
-		CommCmntNo	TYPE_WORD10	1
+		CommCmntNo	TYPE_WORD10	0
 		CmntLength	TYPE_WORD10	32
-	CommCmnt0000:
-		GppFXName	TYPE_STRING	"COMMENT"
-		GppwName	TYPE_STRING	"COMMENT"
-		DevRngSetNo	TYPE_WORD10	0
+[Pass]
+	PassSet:
+		PassFlag	TYPE_BOOL	FALSE
