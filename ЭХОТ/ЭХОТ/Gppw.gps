@@ -9,7 +9,7 @@
 		lUnitType	TYPE_DWORD10	15
 		lPacketType	TYPE_DWORD10	1
 		lProtocolType	TYPE_DWORD10	4
-		lPortNo	TYPE_DWORD10	4
+		lPortNo	TYPE_DWORD10	7
 		lBaudRate	TYPE_DWORD10	115200
 		lDataBits	TYPE_DWORD10	7
 		lParity	TYPE_DWORD10	2
@@ -25,7 +25,7 @@
 		lConUnitNo	TYPE_DWORD10	0
 	ConnectDialg:
 		Combo01	TYPE_DWORD10	0
-		Combo02	TYPE_DWORD10	3
+		Combo02	TYPE_DWORD10	6
 		Combo03	TYPE_DWORD10	0
 		Combo04	TYPE_DWORD10	0
 		Combo05	TYPE_DWORD10	0
@@ -39,7 +39,7 @@
 		Edit04	TYPE_STRING	"0"
 	NewConDlg:
 		CompIF	TYPE_WORD16	0x1
-		CompCom	TYPE_DWORD10	4
+		CompCom	TYPE_DWORD10	7
 		CompBoard	TYPE_DWORD10	0
 		CompBaudRate	TYPE_DWORD10	115200
 		CompNetwork	TYPE_DWORD10	0
@@ -108,7 +108,7 @@
 		WindowLeft	TYPE_DWORD10	5
 		WindowTop	TYPE_DWORD10	142
 		WindowRight	TYPE_DWORD10	125
-		WindowBottom	TYPE_DWORD10	645
+		WindowBottom	TYPE_DWORD10	739
 		BrowzerView	TYPE_BOOL	TRUE
 	ToolBarWnd:
 		UserSet	TYPE_BOOL	TRUE
@@ -146,7 +146,7 @@
 		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 0"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
 		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"2e 236 174 256"
+		BrowzerWindowRect	TYPE_STRING	"30 24f 176 26f"
 		BrowzerToolBarView	TYPE_BOOL	FALSE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
@@ -223,14 +223,14 @@
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 0 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
 		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"49f 236 4dd 256"
+		CommentWindowRect	TYPE_STRING	"4a1 24f 4df 26f"
 		CommentToolBarView	TYPE_BOOL	FALSE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
 		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"4dc 236 503 256"
+		DMemoryWindowRect	TYPE_STRING	"4de 24f 505 26f"
 		DMemoryToolBarView	TYPE_BOOL	FALSE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
@@ -241,7 +241,7 @@
 		DMemoryToolBarB6	TYPE_STRING	"7 0 7e72 0 3 1"
 		SFCDoc	TYPE_DWORD16	0xe81b
 		SFCFloat	TYPE_BOOL	TRUE
-		SFCWindowRect	TYPE_STRING	"3df 236 49c 256"
+		SFCWindowRect	TYPE_STRING	"3e1 24f 49e 26f"
 		SFCToolBarView	TYPE_BOOL	FALSE
 		SFCSToolBarB0	TYPE_STRING	"9 0 7ecb 0 0 1"
 		SFCSToolBarB1	TYPE_STRING	"9 1 7ecc 0 1 1"
@@ -254,7 +254,7 @@
 		SFCSToolBarB8	TYPE_STRING	"9 8 7eff 0 6 1"
 		SFCStepDoc	TYPE_DWORD16	0xe81b
 		SFCStepFloat	TYPE_BOOL	TRUE
-		SFCStepWindowRect	TYPE_STRING	"175 236 3e1 25a"
+		SFCStepWindowRect	TYPE_STRING	"177 24f 3e3 273"
 		SFCStepToolBarView	TYPE_BOOL	FALSE
 		SFCStepToolBarB0	TYPE_STRING	"18 0 7ec1 0 0 1"
 		SFCStepToolBarB1	TYPE_STRING	"18 1 7ec2 0 1 1"
@@ -305,18 +305,18 @@
 		MajorVersion	TYPE_DWORD10	8
 		MinorVersion	TYPE_STRING	"25B"
 	Project:
-		ProjectPath	TYPE_STRING	"D:\Работа\Чертежи\ЭХОТ"
+		ProjectPath	TYPE_STRING	"G:\Work\MyWork\ЭХОТ"
 		ProjectName	TYPE_STRING	"ЭХОТ"
 		ProjectComment	TYPE_STRING	""
 		ChildWndStyle	TYPE_BOOL	TRUE
 		SortType	TYPE_DWORD10	0
 	SaveTime:
-		Year	TYPE_DWORD10	2024
-		Month	TYPE_DWORD10	7
-		Day	TYPE_DWORD10	19
-		Hour	TYPE_DWORD10	10
-		Minute	TYPE_DWORD10	31
-		Second	TYPE_DWORD10	26
+		Year	TYPE_DWORD10	2025
+		Month	TYPE_DWORD10	3
+		Day	TYPE_DWORD10	31
+		Hour	TYPE_DWORD10	14
+		Minute	TYPE_DWORD10	20
+		Second	TYPE_DWORD10	53
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -541,7 +541,7 @@
 		ConnectType	TYPE_DWORD10	0
 		PhoneNo	TYPE_STRING	""
 		TargetName	TYPE_STRING	""
-		ConnectComPort	TYPE_DWORD10	1
+		ConnectComPort	TYPE_DWORD10	4
 		ConnectCond	TYPE_BOOL	FALSE
 		CallBkPhoneNo	TYPE_STRING	""
 		MacParity	TYPE_DWORD10	1
@@ -561,10 +561,10 @@
 	Window000:
 		DataName	TYPE_STRING	"MAIN"
 		WindowType	TYPE_DWORD10	257
-		WindowLeft	TYPE_DWORD10	0
-		WindowTop	TYPE_DWORD10	0
-		WindowRight	TYPE_DWORD10	831
-		WindowBottom	TYPE_DWORD10	411
+		WindowLeft	TYPE_DWORD10	52
+		WindowTop	TYPE_DWORD10	52
+		WindowRight	TYPE_DWORD10	883
+		WindowBottom	TYPE_DWORD10	463
 		Maximize	TYPE_BOOL	TRUE
 		Minimize	TYPE_BOOL	FALSE
 		InsFlag	TYPE_BOOL	FALSE
@@ -573,13 +573,13 @@
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	0
+		StepPosition	TYPE_DWORD10	88
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	3
-		CursorPositionY	TYPE_DWORD10	0
+		CursorPositionX	TYPE_DWORD10	10
+		CursorPositionY	TYPE_DWORD10	5
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
