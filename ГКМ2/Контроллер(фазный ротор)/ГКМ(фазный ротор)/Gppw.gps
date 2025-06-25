@@ -13,12 +13,12 @@
 		lStationNo	TYPE_DWORD10	255
 		lUnitNo	TYPE_DWORD10	0
 		lIONo	TYPE_DWORD10	0
-		lCpuType	TYPE_DWORD10	520
+		lCpuType	TYPE_DWORD10	519
 		lUnitType	TYPE_DWORD10	15
 		lPacketType	TYPE_DWORD10	1
 		lProtocolType	TYPE_DWORD10	4
 		lPortNo	TYPE_DWORD10	5
-		lBaudRate	TYPE_DWORD10	115200
+		lBaudRate	TYPE_DWORD10	9600
 		lDataBits	TYPE_DWORD10	7
 		lParity	TYPE_DWORD10	2
 		lStopBits	TYPE_DWORD10	0
@@ -42,7 +42,7 @@
 		CompIF	TYPE_WORD16	0x1
 		CompCom	TYPE_DWORD10	5
 		CompBoard	TYPE_DWORD10	0
-		CompBaudRate	TYPE_DWORD10	115200
+		CompBaudRate	TYPE_DWORD10	9600
 		CompNetwork	TYPE_DWORD10	0
 		CompStation	TYPE_DWORD10	0
 		CompChNo	TYPE_DWORD10	0
@@ -134,16 +134,16 @@
 		StatusBar	TYPE_BOOL	TRUE
 	BrowzerWnd:
 		BrowzerFloat	TYPE_BOOL	FALSE
-		WindowLeft	TYPE_DWORD10	4
-		WindowTop	TYPE_DWORD10	143
-		WindowRight	TYPE_DWORD10	124
+		WindowLeft	TYPE_DWORD10	874
+		WindowTop	TYPE_DWORD10	233
+		WindowRight	TYPE_DWORD10	994
 		WindowBottom	TYPE_DWORD10	744
 		BrowzerView	TYPE_BOOL	TRUE
 	ToolBarWnd:
 		UserSet	TYPE_BOOL	TRUE
 		MainDoc	TYPE_DWORD16	0xe81b
 		MainFloat	TYPE_BOOL	FALSE
-		MainWindowRect	TYPE_STRING	"d 71 17d 91"
+		MainWindowRect	TYPE_STRING	"2 8b 1d4 ab"
 		MainToolBarView	TYPE_BOOL	TRUE
 		MainToolBarB0	TYPE_STRING	"1c 0 7d64 0 0 1"
 		MainToolBarB1	TYPE_STRING	"1c 1 7d65 0 1 1"
@@ -168,15 +168,15 @@
 		MainToolBarB20	TYPE_STRING	"1c 80000019 7e97 0 12 1"
 		MainToolBarB21	TYPE_STRING	"1c 8000001a 7e98 0 13 1"
 		MainToolBarB22	TYPE_STRING	"1c 11 0 1 6 1"
-		MainToolBarB23	TYPE_STRING	"1c 12 7d6f 0 e 0"
-		MainToolBarB24	TYPE_STRING	"1c 13 7d6e 0 f 0"
+		MainToolBarB23	TYPE_STRING	"1c 12 7d6f 0 e 1"
+		MainToolBarB24	TYPE_STRING	"1c 13 7d6e 0 f 1"
 		MainToolBarB25	TYPE_STRING	"1c 14 0 1 6 1"
-		MainToolBarB26	TYPE_STRING	"1c 15 7d79 0 10 0"
-		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 0"
+		MainToolBarB26	TYPE_STRING	"1c 15 7d79 0 10 1"
+		MainToolBarB27	TYPE_STRING	"1c 16 7e7c 0 11 1"
 		BrowzerDoc	TYPE_DWORD16	0xe81b
-		BrowzerFloat	TYPE_BOOL	TRUE
-		BrowzerWindowRect	TYPE_STRING	"44 349 18a 369"
-		BrowzerToolBarView	TYPE_BOOL	FALSE
+		BrowzerFloat	TYPE_BOOL	FALSE
+		BrowzerWindowRect	TYPE_STRING	"169 cb 2af eb"
+		BrowzerToolBarView	TYPE_BOOL	TRUE
 		BrowzerToolBarB0	TYPE_STRING	"6 0 4e66 1 78 1"
 		BrowzerToolBarB1	TYPE_STRING	"6 1 0 1 c 1"
 		BrowzerToolBarB2	TYPE_STRING	"6 2 4e67 1 78 1"
@@ -185,7 +185,7 @@
 		BrowzerToolBarB5	TYPE_STRING	"6 5 7dad 0 1 1"
 		CirGPPADoc	TYPE_DWORD16	0xe81b
 		CirGPPAFloat	TYPE_BOOL	FALSE
-		CirGPPAWindowRect	TYPE_STRING	"3 4f 213 73"
+		CirGPPAWindowRect	TYPE_STRING	"2 a9 212 cd"
 		CirGPPAToolBarView	TYPE_BOOL	TRUE
 		CirGPPAToolBarB0	TYPE_STRING	"16 0 7e08 0 13 1"
 		CirGPPAToolBarB1	TYPE_STRING	"16 1 7e09 0 14 1"
@@ -211,7 +211,7 @@
 		CirGPPAToolBarB21	TYPE_STRING	"16 15 7e25 0 25 1"
 		ProgramDoc	TYPE_DWORD16	0xe81b
 		ProgramFloat	TYPE_BOOL	FALSE
-		ProgramWindowRect	TYPE_STRING	"4 31 22d 51"
+		ProgramWindowRect	TYPE_STRING	"9 4f 232 6f"
 		ProgramToolBarView	TYPE_BOOL	TRUE
 		ProgramToolBarB0	TYPE_STRING	"25 1d 7ead 0 13 1"
 		ProgramToolBarB1	TYPE_STRING	"25 1e 0 1 6 1"
@@ -251,16 +251,16 @@
 		ProgramToolBarB35	TYPE_STRING	"25 80000027 7e7e 0 0 1"
 		ProgramToolBarB36	TYPE_STRING	"25 80000028 7e7f 0 0 1"
 		CommentDoc	TYPE_DWORD16	0xe81b
-		CommentFloat	TYPE_BOOL	TRUE
-		CommentWindowRect	TYPE_STRING	"4b5 349 4f3 369"
-		CommentToolBarView	TYPE_BOOL	FALSE
+		CommentFloat	TYPE_BOOL	FALSE
+		CommentWindowRect	TYPE_STRING	"c cb 4a eb"
+		CommentToolBarView	TYPE_BOOL	TRUE
 		CommentToolBarB0	TYPE_STRING	"3 0 7e5e 0 0 1"
 		CommentToolBarB1	TYPE_STRING	"3 1 7e5f 0 1 1"
 		CommentToolBarB2	TYPE_STRING	"3 80000002 7e62 0 2 1"
 		DMemoryDoc	TYPE_DWORD16	0xe81b
-		DMemoryFloat	TYPE_BOOL	TRUE
-		DMemoryWindowRect	TYPE_STRING	"4f2 349 519 369"
-		DMemoryToolBarView	TYPE_BOOL	FALSE
+		DMemoryFloat	TYPE_BOOL	FALSE
+		DMemoryWindowRect	TYPE_STRING	"2 6d 29 8d"
+		DMemoryToolBarView	TYPE_BOOL	TRUE
 		DMemoryToolBarB0	TYPE_STRING	"7 80000002 7e7e 0 0 1"
 		DMemoryToolBarB1	TYPE_STRING	"7 80000003 7e7f 0 1 1"
 		DMemoryToolBarB2	TYPE_STRING	"7 80000004 0 1 6 1"
@@ -269,9 +269,9 @@
 		DMemoryToolBarB5	TYPE_STRING	"7 80000000 7e77 0 2 1"
 		DMemoryToolBarB6	TYPE_STRING	"7 0 7e72 0 3 1"
 		SFCDoc	TYPE_DWORD16	0xe81b
-		SFCFloat	TYPE_BOOL	TRUE
-		SFCWindowRect	TYPE_STRING	"3f5 349 4b2 369"
-		SFCToolBarView	TYPE_BOOL	FALSE
+		SFCFloat	TYPE_BOOL	FALSE
+		SFCWindowRect	TYPE_STRING	"8 31 c5 51"
+		SFCToolBarView	TYPE_BOOL	TRUE
 		SFCSToolBarB0	TYPE_STRING	"9 0 7ecb 0 0 1"
 		SFCSToolBarB1	TYPE_STRING	"9 1 7ecc 0 1 1"
 		SFCSToolBarB2	TYPE_STRING	"9 2 7ecd 0 2 1"
@@ -282,8 +282,8 @@
 		SFCSToolBarB7	TYPE_STRING	"9 7 7ed1 0 5 1"
 		SFCSToolBarB8	TYPE_STRING	"9 8 7eff 0 6 1"
 		SFCStepDoc	TYPE_DWORD16	0xe81b
-		SFCStepFloat	TYPE_BOOL	TRUE
-		SFCStepWindowRect	TYPE_STRING	"18b 349 3f7 36d"
+		SFCStepFloat	TYPE_BOOL	FALSE
+		SFCStepWindowRect	TYPE_STRING	"fa 4f 366 73"
 		SFCStepToolBarView	TYPE_BOOL	FALSE
 		SFCStepToolBarB0	TYPE_STRING	"18 0 7ec1 0 0 1"
 		SFCStepToolBarB1	TYPE_STRING	"18 1 7ec2 0 1 1"
@@ -311,7 +311,7 @@
 		SFCStepToolBarB23	TYPE_STRING	"18 17 7f05 0 16 1"
 		STEditDoc	TYPE_DWORD16	0xe81b
 		STEditFloat	TYPE_BOOL	FALSE
-		STEditWindowRect	TYPE_STRING	"4 31 140 51"
+		STEditWindowRect	TYPE_STRING	"22a 31 366 51"
 		STEditToolBarView	TYPE_BOOL	FALSE
 		STEditToolBarB0	TYPE_STRING	"10 0 7f63 0 0 1"
 		STEditToolBarB1	TYPE_STRING	"10 1 7f6a 0 1 1"
@@ -334,18 +334,18 @@
 		MajorVersion	TYPE_DWORD10	8
 		MinorVersion	TYPE_STRING	"25B"
 	Project:
-		ProjectPath	TYPE_STRING	"G:\Work\MyWork\Universal_control_box\Цех9_Обрезной_пресс(Д1-267)\Контроллер"
-		ProjectName	TYPE_STRING	"ц9_Обрезной_пресс(Д1-267)"
+		ProjectPath	TYPE_STRING	"G:\Work\MyWork\ГКМ2\Контроллер(фазный ротор)"
+		ProjectName	TYPE_STRING	"ГКМ(фазный ротор)"
 		ProjectComment	TYPE_STRING	""
 		ChildWndStyle	TYPE_BOOL	TRUE
 		SortType	TYPE_DWORD10	0
 	SaveTime:
 		Year	TYPE_DWORD10	2025
 		Month	TYPE_DWORD10	6
-		Day	TYPE_DWORD10	24
+		Day	TYPE_DWORD10	25
 		Hour	TYPE_DWORD10	10
-		Minute	TYPE_DWORD10	47
-		Second	TYPE_DWORD10	17
+		Minute	TYPE_DWORD10	27
+		Second	TYPE_DWORD10	25
 [Prg]
 	PrgOptDlg:
 		EditBlock	TYPE_WORD10	0
@@ -362,7 +362,7 @@
 		AutoScrollMonMode	TYPE_BOOL	FALSE
 		CompileWConvert	TYPE_BOOL	TRUE
 		InstructionHelp	TYPE_BOOL	TRUE
-		CmntDevCnt	TYPE_DWORD10	13
+		CmntDevCnt	TYPE_DWORD10	11
 		CmntDevCode1	TYPE_WORD16	0x90
 		CmntExtCode1	TYPE_WORD16	0x0
 		CmntDev1	TYPE_STRING	"M"
@@ -384,24 +384,18 @@
 		CmntDevCode7	TYPE_WORD16	0xa9
 		CmntExtCode7	TYPE_WORD16	0x0
 		CmntDev7	TYPE_STRING	"Специальный D"
-		CmntDevCode8	TYPE_WORD16	0xaf
+		CmntDevCode8	TYPE_WORD16	0xc2
 		CmntExtCode8	TYPE_WORD16	0x0
-		CmntDev8	TYPE_STRING	"R"
-		CmntDevCode9	TYPE_WORD16	0xc2
+		CmntDev8	TYPE_STRING	"T"
+		CmntDevCode9	TYPE_WORD16	0xc5
 		CmntExtCode9	TYPE_WORD16	0x0
-		CmntDev9	TYPE_STRING	"T"
-		CmntDevCode10	TYPE_WORD16	0xc5
+		CmntDev9	TYPE_STRING	"C"
+		CmntDevCode10	TYPE_WORD16	0xd0
 		CmntExtCode10	TYPE_WORD16	0x0
-		CmntDev10	TYPE_STRING	"C"
-		CmntDevCode11	TYPE_WORD16	0xd0
+		CmntDev10	TYPE_STRING	"P"
+		CmntDevCode11	TYPE_WORD16	0xd1
 		CmntExtCode11	TYPE_WORD16	0x0
-		CmntDev11	TYPE_STRING	"P"
-		CmntDevCode12	TYPE_WORD16	0xd1
-		CmntExtCode12	TYPE_WORD16	0x0
-		CmntDev12	TYPE_STRING	"I"
-		CmntDevCode13	TYPE_WORD16	0xab
-		CmntExtCode13	TYPE_WORD16	0xf8
-		CmntDev13	TYPE_STRING	"Un\G"
+		CmntDev11	TYPE_STRING	"I"
 	PrgList:
 		PRGFILE1	TYPE_STRING	"MAIN"
 		PrgCount	TYPE_WORD10	1
@@ -421,8 +415,6 @@
 		CmntPrg9	TYPE_WORD10	2
 		CmntPrg10	TYPE_WORD10	2
 		CmntPrg11	TYPE_WORD10	2
-		CmntPrg12	TYPE_WORD10	2
-		CmntPrg13	TYPE_WORD10	2
 	PrgMacroLib:
 		MacroInsOpt	TYPE_WORD10	0
 [Mon]
@@ -578,29 +570,29 @@
 		WindowType	TYPE_DWORD10	257
 		WindowLeft	TYPE_DWORD10	0
 		WindowTop	TYPE_DWORD10	0
-		WindowRight	TYPE_DWORD10	652
-		WindowBottom	TYPE_DWORD10	466
+		WindowRight	TYPE_DWORD10	1206
+		WindowBottom	TYPE_DWORD10	357
 		Maximize	TYPE_BOOL	TRUE
 		Minimize	TYPE_BOOL	FALSE
-		InsFlag	TYPE_BOOL	FALSE
+		InsFlag	TYPE_BOOL	TRUE
 		PrgMode	TYPE_WORD10	1
 		MonFlag	TYPE_BOOL	FALSE
 		FrameStat	TYPE_WORD10	0
 		StepNo	TYPE_DWORD10	-1
 		BlockNo	TYPE_WORD10	65535
-		StepPosition	TYPE_DWORD10	26
+		StepPosition	TYPE_DWORD10	28
 		ViewX	TYPE_DWORD10	0
 		ViewY	TYPE_DWORD10	0
 		WindowOrgX	TYPE_DWORD10	0
 		WindowOrgY	TYPE_DWORD10	0
-		CursorPositionX	TYPE_DWORD10	7
+		CursorPositionX	TYPE_DWORD10	10
 		CursorPositionY	TYPE_DWORD10	2
 		MonitorDispType	TYPE_DWORD10	0
 		DispLabelFlag	TYPE_BOOL	FALSE
 		DispLabelStyle	TYPE_BOOL	FALSE
 		DispCommentFlag	TYPE_BOOL	TRUE
 		DispCommentOptFlag	TYPE_BOOL	FALSE
-		DispNoteFlag	TYPE_BOOL	TRUE
+		DispNoteFlag	TYPE_BOOL	FALSE
 		DispStatementFlag	TYPE_BOOL	FALSE
 		DispPercent	TYPE_DWORD10	75
 		DispAutoSizeFlag	TYPE_BOOL	TRUE
