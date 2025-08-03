@@ -1,0 +1,25 @@
+Автоматы                   Тепловое реле
+
+QF 3L    63A               KK1      32A             
+F1 3L    16A               KK3      10A
+F2 3L    40A               KK2      10A
+F3 3L    16A
+F4 3L    10A               Пускатели
+F5 1L     3A                 
+F6 2L     6A               PH1,PH2,PH3   16A  AC110V
+F7 2L     6A
+F8 1L     6A               Реле времени
+F9 1L     6A
+F10 1L    6A               KT1, KT2, KT3  AC110V
+F11 1L    4A
+F12 1L    2A               Сигнальные лампы
+F13 1L    1A
+F14 1L    1A               HL1   white AC24V
+F15 1L    1A               HL2,HL3   green  AC24V
+                           HL4,HL5,HL7,HL8,HL11  white  AC24V
+Пускатели                  HL9,HL10   red   AC24V  
+
+KM1  40A AC110V
+KM2  16A AC110V
+KM3-1,KM3-2   16A AC110V
+
