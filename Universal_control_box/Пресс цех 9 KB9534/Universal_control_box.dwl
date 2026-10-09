@@ -1,3 +1,0 @@
-Rosem
-ROSEMINEXTMSI 
-9 окт€бр€ 2026 г.  12:05:29
